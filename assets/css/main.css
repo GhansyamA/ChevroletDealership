@@ -1,0 +1,37 @@
+.link-unstyled {
+    color: initial;
+    text-decoration: none;
+}
+
+.link-unstyled:hover {
+    color: initial;
+}
+
+body {
+    font-family: "Source Sans Pro", sans-serif !important;
+    overflow-y: scroll;
+}
+
+/* Footer sticky bottom */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
+
+/* Bouton de retour en haut de page */
+
+#scroll-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+    width: 37px;
+    height: 37px;
+    z-index: 999;
+}
